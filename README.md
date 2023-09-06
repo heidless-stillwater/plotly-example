@@ -1,3 +1,11 @@
+# tut
+https://www.youtube.com/watch?v=1VewIO2Yhmo&list=PLY91jl6VVD7wLP84OUgmjGSUBbem92KHk&index=6
+
+PLOTLY:
+https://dash.plotly.com/layout
+
+
+
 # Commands to build and deploy the application
 ```
 #gcloud builds submit --tag gcr.io/ProjectID/dash-youtube-example  --project=ProjectID
