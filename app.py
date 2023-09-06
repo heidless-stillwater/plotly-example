@@ -22,7 +22,7 @@ app.layout = html.Div(children=[
     html.H1(children='Hello Dash'),
 
     html.Div(children='''
-        Dash: A web application framework for your data.
+        Dash: A web application framework for your data - YouTub Tutorial.
     '''),
 
     dcc.Graph(
@@ -32,4 +32,4 @@ app.layout = html.Div(children=[
 ])
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False, host="0.0.0.0", port=8080)
